@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    position: relative;
+    background: black;
+    background-image: url('../imagens/wallpaperflare.com_wallpaper.jpg');
+    background-position:  center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.form1{
+    background-color: gray;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+
+}
+
+header > div{
+    height: 100px;
+    background-color: black;
+
+}
+
+body > div > form > h1{
+    color: white;
+    font: normal 20pt Arial;
+    text-align: center;
+
+}
+
+body > div > form > label{
+    width: 200px;
+    margin: 10px;
+
+}
+
+body > div > form > label > span{
+    margin-top: 10px;
+
+}
+
+body > div > form > label > input{
+    width: 90%;
+    margin-left: 10px;
+
+}
